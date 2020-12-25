@@ -89,7 +89,7 @@ function Login() {
             <div
                 className="login-register"
                 style={{
-                    backgroundColor: "#141414",
+                    backgroundColor: "#ffffff",
                     margin: "auto",
                 }}
             >
@@ -103,12 +103,13 @@ function Login() {
                         width: "40%",
                         height: "fit-content",
                         padding: "2 em",
-                        background: "#019183",
+                        background: "#7cf7df",
                         border: 0,
                         marginTop: "auto",
                         marginBottom: "auto",
                         maxWidth: "500px",
                         borderRadius: '30px',
+                        
                     }}
                     className="form-card"
                 >
@@ -203,10 +204,10 @@ function Login() {
                             </Button>
                         </Form.Item>
                     </Form>
-                    <p>
+                    {/*<p>
                         Don't have an account ?{" "}
-                        {/* <Link to="/register" style={{color: "white"}}>Register</Link> */}
-                    </p>
+                        { <Link to="/register" style={{color: "white"}}>Register</Link> }
+                    </p>*/}
                 </Card>
             </div>
         </div>

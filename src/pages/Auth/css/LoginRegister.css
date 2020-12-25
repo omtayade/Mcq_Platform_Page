@@ -1,6 +1,6 @@
 .login-register-page {
     display: flex;
-    background-color: #141414;
+    background-color: #ffffff;
     height: 94vh;
 }
 
@@ -15,11 +15,12 @@
     display: flex;
     flex-direction: column;
     padding: 1em;
-    align-items: center;
+    text-align: center;
 }
 
 .svg-card h1 {
     color: #019183;
+    text-align: center;
 }
 
 .svg-card img {
@@ -55,7 +56,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 50%;
 }
 
 .form-card input {
